@@ -1,1 +1,53 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: green;
+  margin: 0;
+}
+#card {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 200px;
+  height: 250px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px;
+}
+.top {
+  font-size: 50px;
+  display: flex;
+  justify-items: start;
+  margin-left: 5px;
+}
+.bottom {
+  font-size: 50px;
+  display: flex;
+  align-self: flex-end;
+  margin-right: 5px;
+  transform: rotate(180deg);
+}
+.middle {
+  font-size: 60px;
+}
+.hearts,
+.diamonds {
+  color: red;
+}
+.clubs,
+.spades {
+  color: black;
+}
+
+#resizing {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
